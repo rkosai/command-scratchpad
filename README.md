@@ -1,3 +1,6 @@
+**Log into remote postgres server**
+`psql -h <hostname> -U <username> <dbname>`
+
 **Dump postgres database from server to development**
 
 `
