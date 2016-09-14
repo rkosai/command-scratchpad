@@ -29,3 +29,7 @@ ssh <hostname>
 **Generate random words**
 
 `shuf -n3 /usr/share/dict/words`
+
+** Make /etc/init.d/ script start on boot.**
+
+`update-rc.d myscript defaults`
