@@ -30,6 +30,6 @@ ssh <hostname>
 
 `shuf -n3 /usr/share/dict/words`
 
-** Make /etc/init.d/ script start on boot.**
+**Make /etc/init.d/ script start on boot.**
 
 `update-rc.d myscript defaults`
