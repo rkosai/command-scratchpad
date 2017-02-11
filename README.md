@@ -33,3 +33,7 @@ ssh <hostname>
 **Make /etc/init.d/ script start on boot.**
 
 `update-rc.d myscript defaults`
+
+**Postgres Upsert (9.5)**
+
+`INSERT INTO users (id, level) VALUES (1, 0) ON CONFLICT (id) DO UPDATE SET level = users.level + 1;`
