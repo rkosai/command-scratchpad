@@ -46,3 +46,8 @@ sudo iptables -A INPUT -i lo -j ACCEPT
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 sudo iptables -A INPUT -j DROP
 ```
+
+**Remap capslock and escape keys in X**
+
+setxkbmap -option caps:swapescape
+
