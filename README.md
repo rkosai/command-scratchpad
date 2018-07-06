@@ -49,5 +49,5 @@ sudo iptables -A INPUT -j DROP
 
 **Remap capslock and escape keys in X**
 
-setxkbmap -option caps:swapescape
+`setxkbmap -option caps:swapescape`
 
